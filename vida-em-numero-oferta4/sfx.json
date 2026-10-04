@@ -1,0 +1,27 @@
+{
+  "_comment": "Sound-effect cue sheet. 'prompt' feeds ElevenLabs sound generation (elevenlabs.cjs); 'at' are the reel timestamps (s) where audio.cjs places each effect.",
+  "sounds": {
+    "slam":        { "prompt": "Deep cinematic trailer impact hit with sub boom and short metallic tail, punchy", "duration": 2.0, "gain": 0.9, "at": [0.55, 1.25, 10.5, 20.0, 24.0] },
+    "whoosh":      { "prompt": "Fast cinematic whoosh swipe transition, airy and clean", "duration": 1.0, "gain": 0.6, "at": [2.72, 15.22, 21.68] },
+    "repel":       { "prompt": "Magnetic repulsion force field pulse, sci-fi energy push outward", "duration": 1.6, "gain": 0.5, "at": [0.6] },
+    "tick":        { "prompt": "Short crisp UI click tick, modern interface", "duration": 0.5, "gain": 0.6, "at": [3.0, 3.75, 4.5, 5.25] },
+    "cash_drain":  { "prompt": "Coins sliding and falling away, money disappearing, short", "duration": 0.8, "gain": 0.5, "at": [3.08] },
+    "spotlight":   { "prompt": "Stage spotlight switching on with a soft electric hum then sliding away", "duration": 0.8, "gain": 0.45, "at": [3.8] },
+    "flatline":    { "prompt": "Heart monitor beeping twice then a flatline tone", "duration": 0.8, "gain": 0.45, "at": [4.52] },
+    "glitch":      { "prompt": "Digital glitch stutter, data corruption error burst", "duration": 0.7, "gain": 0.55, "at": [5.55] },
+    "magnet_hum":  { "prompt": "Deep magnetic field hum with metallic shimmer, slowly rising", "duration": 3.0, "gain": 0.5, "at": [7.5] },
+    "attract":     { "prompt": "Magical shimmer of coins and chimes being pulled together into one point", "duration": 1.6, "gain": 0.55, "at": [8.45] },
+    "alarm":       { "prompt": "Low ominous warning tone, short and dark", "duration": 1.0, "gain": 0.5, "at": [11.55] },
+    "clash":       { "prompt": "Two energy forces clashing with an electric crackle", "duration": 1.0, "gain": 0.6, "at": [13.4] },
+    "resolve":     { "prompt": "Bright magical success chime, sparkly and uplifting", "duration": 1.6, "gain": 0.55, "at": [14.5] },
+    "split_flap":  { "prompt": "Airport split flap display board flipping rapidly", "duration": 1.8, "gain": 0.55, "at": [15.62, 16.2] },
+    "card_slide":  { "prompt": "Thick paper card sliding fast onto a table, soft swoosh", "duration": 0.6, "gain": 0.5, "at": [18.1, 18.42, 18.74, 19.06] },
+    "strike":      { "prompt": "Quick marker slash swish", "duration": 0.5, "gain": 0.5, "at": [19.65] },
+    "ka_ching":    { "prompt": "Cash register ka-ching with coins, bright", "duration": 1.2, "gain": 0.5, "at": [20.05] },
+    "pop":         { "prompt": "Small cartoon pop, playful", "duration": 0.5, "gain": 0.45, "at": [20.5] },
+    "typing":      { "prompt": "Fast smartphone touchscreen keyboard typing taps", "duration": 0.8, "gain": 0.45, "at": [22.45] },
+    "tap":         { "prompt": "Smartphone screen tap button press, soft click", "duration": 0.5, "gain": 0.55, "at": [23.2] },
+    "cascade":     { "prompt": "Quick ascending sparkle cascade of tiny chimes", "duration": 1.0, "gain": 0.45, "at": [23.45] },
+    "shimmer":     { "prompt": "Magical rising shimmer sparkle sweep", "duration": 1.5, "gain": 0.45, "at": [24.95, 25.6] }
+  }
+}
